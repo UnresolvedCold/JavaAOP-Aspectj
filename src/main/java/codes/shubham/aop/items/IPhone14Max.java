@@ -22,6 +22,7 @@ public class IPhone14Max implements IProduct {
   @Override
   public void setPrice(int price) {
     this.price = price;
+    // eyes: Why is the IPhone14MAx class responsible for logging the price?
     PriceLogger.getInstance().log(name, price);
   }
 }

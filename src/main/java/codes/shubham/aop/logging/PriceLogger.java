@@ -18,6 +18,6 @@ public class PriceLogger {
   }
 
   public void log(String name, int price) {
-    System.out.println(STR."Product: \{name} Price: \{price}");
+    System.out.println("Product: "+name+" Price: "+price);
   }
 }

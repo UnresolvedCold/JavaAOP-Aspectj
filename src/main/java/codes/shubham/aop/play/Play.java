@@ -24,6 +24,9 @@ public class Play {
   public static void main(String[] args) {
     helloWorld();
     helloWorld("Shubham");
+    for (int i = 0; i < 10; i++) {
+      getAge();
+    }
     System.out.println(getAge());
     System.out.println(getNames());
     System.out.println(TestDB.getInstance().getMap());

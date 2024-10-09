@@ -1,4 +1,4 @@
-package codes.shubham.aop.logging;
+package codes.shubham.aop.products.logging;
 
 public class PriceLogger {
   private static PriceLogger instance = null;

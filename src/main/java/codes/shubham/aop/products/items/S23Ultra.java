@@ -1,15 +1,13 @@
-package codes.shubham.aop.items;
+package codes.shubham.aop.products.items;
 
-import codes.shubham.aop.logging.PriceLogger;
-
-public class IPhone14Max implements IProduct {
+public class S23Ultra implements IProduct{
 
   String name;
   int quantity;
   int price;
 
-  public IPhone14Max( int quantity, int price) {
-    this.name = "IPhone14Max";
+  public S23Ultra(int quantity, int price) {
+    this.name = "S23Ultra";
     this.quantity = quantity;
     this.price = price;
   }

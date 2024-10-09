@@ -1,4 +1,4 @@
-package codes.shubham.aop.items;
+package codes.shubham.aop.products.items;
 
 public interface IProduct {
   public void setQuantity(int quantity);

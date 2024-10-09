@@ -1,11 +1,11 @@
-package codes.shubham.aop.aspect;
+package codes.shubham.aop.products.aspect;
 
-import codes.shubham.aop.logging.PriceLogger;
+import codes.shubham.aop.products.logging.PriceLogger;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
-import codes.shubham.aop.items.IProduct;
+import codes.shubham.aop.products.items.IProduct;
 @Aspect
 public class LoggingAspect2 {
 

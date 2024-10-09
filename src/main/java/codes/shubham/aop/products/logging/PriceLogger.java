@@ -1,4 +1,4 @@
-package codes.shubham.aop.logging;
+package codes.shubham.aop.products.logging;
 
 public class PriceLogger {
   private static PriceLogger instance = null;
@@ -18,6 +18,6 @@ public class PriceLogger {
   }
 
   public void log(String name, int price) {
-    System.out.println(STR."Product: \{name} Price: \{price}");
+    System.out.println("Product: "+name+" Price: "+price);
   }
 }

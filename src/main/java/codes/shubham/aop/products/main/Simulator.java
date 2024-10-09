@@ -1,8 +1,8 @@
-package codes.shubham.aop.main;
+package codes.shubham.aop.products.main;
 
-import codes.shubham.aop.items.IPhone14Max;
-import codes.shubham.aop.items.IProduct;
-import codes.shubham.aop.items.S23Ultra;
+import codes.shubham.aop.products.items.IPhone14Max;
+import codes.shubham.aop.products.items.IProduct;
+import codes.shubham.aop.products.items.S23Ultra;
 
 import java.util.ArrayList;
 import java.util.List;

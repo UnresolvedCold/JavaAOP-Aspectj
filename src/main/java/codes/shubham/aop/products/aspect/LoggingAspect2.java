@@ -9,9 +9,9 @@ import codes.shubham.aop.products.items.IProduct;
 @Aspect
 public class LoggingAspect2 {
 
-  @Pointcut("call(public void codes.shubham.aop.items.IProduct.setPrice(int)) " +
+  @Pointcut("call(public void codes.shubham.aop.products.items.IProduct.setPrice(int)) " +
       "&& args(price) " +
-      "&& target(codes.shubham.aop.items.IProduct)")
+      "&& target(codes.shubham.aop.products.items.IProduct)")
   public void logPriceChange(int price) {
     // Pointcut definition
   }

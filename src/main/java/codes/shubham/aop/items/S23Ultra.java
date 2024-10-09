@@ -22,7 +22,10 @@ public class S23Ultra implements IProduct{
   @Override
   public void setPrice(int price) {
     this.price = price;
-    // eyes: Why is the S23Ultra class responsible for logging the price?
-    PriceLogger.getInstance().log(name, price);
+  }
+
+  @Override
+  public String getName() {
+    return this.name;
   }
 }
